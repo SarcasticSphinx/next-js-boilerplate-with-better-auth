@@ -1,8 +1,8 @@
-# Next.js Boilerplate with Better-Auth Enchanced
+# Next.js Boilerplate with Better-Auth Enhanced
 
 A robust, production-ready boilerplate for building modern web applications with Next.js 16, Better-Auth, Prisma, and Tailwind CSS.
 
-## 🚀 Features
+## Features
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Directory)
 - **Authentication**: [Better-Auth](https://better-auth.com/) for secure, type-safe authentication.
@@ -15,14 +15,14 @@ A robust, production-ready boilerplate for building modern web applications with
 - **File Uploads**: [UploadThing](https://uploadthing.com/).
 - **Linting & Formatting**: ESLint and Prettier configuration.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 19, Next.js 16, Tailwind CSS 4
 - **Backend**: Next.js Server Actions / API Routes
 - **Database**: PostgreSQL (via Prisma)
 - **Auth**: Better-Auth (Polished & Type-safe)
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -89,7 +89,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── src
@@ -104,7 +104,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 └── ...config files  # Next.js, Tailwind, ESLint, etc.
 ```
 
-## 🔐 Authentication
+## Authentication
 
 Authentication is handled by **Better-Auth**.
 
@@ -113,7 +113,7 @@ Authentication is handled by **Better-Auth**.
 - **API Route**: `src/app/api/auth/[...all]/route.ts`
 - **Middleware**: `src/middleware.ts` (Protects routes like `/admin`, `/dashboard`)
 
-## 📜 Scripts
+## Scripts
 
 - `npm run dev`: Start development server.
 - `npm run build`: Build for production.
@@ -121,7 +121,7 @@ Authentication is handled by **Better-Auth**.
 - `npm run lint`: Run ESLint.
 - `npx prisma studio`: Open Prisma Studio to view database records.
 
-## 🚀 Deployment
+## Deployment
 
 The easiest way to deploy is using [Vercel](https://vercel.com).
 
@@ -130,10 +130,10 @@ The easiest way to deploy is using [Vercel](https://vercel.com).
 3. Add your **Environment Variables** (`DATABASE_URL`, `BETTER_AUTH_SECRET`, etc.).
 4. Click **Deploy**.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
